@@ -1,0 +1,55 @@
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Le plus gros chat</title>
+        <style>
+            img{
+                width:170px;;
+            }
+            input[type=range]{
+                width:170px;
+            }
+            section{
+                display: flex;
+                flex-direction: row;
+                align-items: end;
+            }
+            section div{
+                padding:1em;
+            }
+        </style>
+    </head>
+    <body>
+      
+        <section>
+            <div id="pantoufle">
+                <img src="asset/selfie-pantoufle.jpg" alt="Pantoufle"><br>
+                <input type="range" min="0" max="40" value="15"><br>
+                <span>Pantoufle weight is : </span><strong>15</strong>
+            </div>
+            <div id="pelote">
+                <img src="asset/selfie-pelote.jpg" alt="Pelote"><br>
+                <input type="range" min="0" max="40" value="15"><br>
+                <span>Pelote weight is : </span><strong>15</strong>
+            </div>
+            <div id="felix">
+                <img src="asset/selfie-felix.jpg" alt="Félix"><br>
+                <input type="range" min="0" max="40" value="15"><br>
+                <span>Félix weight is : </span><strong>15</strong>
+            </div>
+            <div id="microcephale">
+                <img src="asset/selfie-microcephale.jpg" alt="Microcéphale"><br>
+                <input type="range" min="0" max="40" value="15"><br>
+                <span>Microcéphale weight is : </span><strong>15</strong>
+            </div>
+        </section>
+
+        <h3></h3>
+
+
+        <script src="helper.js"></script>
+        <script src="script.js"></script>
+        <script src="tool.js"></script>
+        
+    </body>
+</html>
