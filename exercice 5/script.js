@@ -1,3 +1,16 @@
+/* 
+    Documentation : https://fr.javascript.info/
+
+    Les notions abordées dans cet exercice sont expliquées ici : 
+    . https://fr.javascript.info/logical-operators
+    . https://fr.javascript.info/ifelse
+    . https://fr.javascript.info/comparison
+
+    Objectif : 
+
+        . Approfondissement (encore) expressions booléennes
+*/
+
 /*
     Objectif : regarder ./asset/objectif.mp4
 
@@ -12,11 +25,5 @@
     (même format possible qu'en CSS)
 
     INDISPENSABLE : Pensez à utiliser la console du navigateur pour tester ces fonctions et comprendre comment les utiliser.
-
-    Au besoin, quelques liens sur la documentation liée aux notions utiles à l'exercice :
-    . https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/if...else
-    . https://developer.mozilla.org/fr/docs/Web/JavaScript/Reference/Operators
-    . https://www.unilim.fr/pages_perso/frederic.mora/algorithmique/#/8/1
-
 
 */
