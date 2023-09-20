@@ -99,15 +99,15 @@ let fe = getWeightOf('felix');
 /*  Q1
 
     Remplacer la valeur false par une expression booléenne qui sera vraie uniquement lorsque
-    Pantoufle est bien plus petit que Pelote et Félix.
+    Pantoufle est bien moins lourd que Pelote et Félix.
     Note : objectif.mp4 ne montre pas le message du else, mais n'en tenez pas compte.
 */
 
 if ( false ){
-    setMessage("Pantoufle est le plus petit des chats");
+    setMessage("Pantoufle est le moins des chats");
 }
 else{
-    setMessage("Pantoufle n'est pas le plus petit chats");
+    setMessage("Pantoufle n'est pas le moins lourd chats");
 }
 
 /*  Q2 
@@ -136,8 +136,8 @@ else{
 
 /*  Q4
 
-    Ecrire un code qui affiche quand c'est vrai : "Pantoufle n'est ni le plus lourd ni le plus petit des chats"
-    Et quand c'est faux : "Pantoufle est soit le plus lourd soit le plus petit des chats"
+    Ecrire un code qui affiche quand c'est vrai : "Pantoufle n'est ni le plus lourd ni le moins lourd des chats"
+    Et quand c'est faux : "Pantoufle est soit le plus lourd soit le moins lourd chats"
 
     Proposez deux solutions, une sans l'opérateur ! et une avec
 */
